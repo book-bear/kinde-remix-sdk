@@ -1,4 +1,4 @@
-import { installGlobals } from "@remix-run/node";
+import { installGlobals } from "react-router";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { handleAuth, kindeClient } from "../src/handle-auth.ts";
 

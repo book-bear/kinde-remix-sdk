@@ -22,6 +22,9 @@ export default {
       declaration: false,
       declarationDir: undefined,
       sourceMap: false,
+      // @NOTE
+      // - https://github.com/rollup/plugins/tree/master/packages/typescript/#noforceemit
+      // noForceEmit: true,
       compilerOptions: {
         outDir: "dist",
       },

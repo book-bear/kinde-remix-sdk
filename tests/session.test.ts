@@ -1,4 +1,4 @@
-import { installGlobals } from "@remix-run/node";
+import { installGlobals } from "react-router";
 import { describe, expect, test } from "vitest";
 import { createSessionManager } from "../src/session";
 
